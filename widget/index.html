@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<!-- Load helper.css to use our helper classes.
+	<link href="../../../../styles/helper.css" rel="stylesheet">
+	-->
+	
+	<!-- JS -->
+	<script src="../../../scripts/buildfire.js"></script>
+   
+ 	<!--
+    <script src="../../../../scripts/angular/angular.min.js"></script>
+    <script src="../../../../scripts/angular/ui-bootstrap.min.js"></script>
+
+    <script src="../../../../scripts/jquery/jquery-1.11.2.min.js"></script>
+    -->
+	<style>
+		@keyframes animatedBackground {
+			from { background-position: 0 100%; }
+			to { background-position: 100% 100%; }
+		}
+
+		.animate-area	{
+
+			background-image: url(bg-clouds.png);
+			background-repeat: repeat-x;
+			background-color: #8ec1da;
+			animation: animatedBackground 80s linear infinite;
+		}
+
+		.sky{
+			background: url(sky.png) repeat-x;
+			height:190px;
+		}
+
+		.menu{
+			margin: 20px;
+			margin-top: -150px;
+			text-align: center;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body class="animate-area">
+	<div class="sky">
+
+	</div>
+	<div class="menu">
+		<h1>Plugin 1</h1>
+		<h1>Plugin 2</h1>
+		<h1>Plugin 3</h1>
+		<h1>Plugin 4</h1>
+		<h1>Plugin 5</h1>
+	</div>
+
+</body>
+</html>
